@@ -1,0 +1,35 @@
+<!--
+  * Fichier Ant pour le projet Violet du cours IFT2255.
+  *
+  * Auteur: Bruno Dufour (dufour@iro.umontreal.ca)
+-->
+
+<project default="compile">
+    <property name="src.dir"     value="src/main/java"/>
+    <property name="res.dir"     value="src/main/resources"/>
+    <property name="classes.dir" value="target/classes"/>    
+    <property name="lib.dir"     value="lib"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}" includes="**/*.jar" erroronmissingdir="false"/>
+    </path>
+
+    <!-- clean: Supprime les fichiers créés lors de la compilation -->
+    <target name="clean">
+        <delete dir="${classes.dir}"/>
+    </target>
+
+    <!-- compile: Compile le code source -->
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="src" destdir="${classes.dir}" includeantruntime="false">
+            <classpath refid="classpath"/>
+        </javac>
+        <copy todir="${classes.dir}">
+            <fileset dir="${src.dir}" excludes="**/*.java"/>
+        </copy>
+        <copy todir="${classes.dir}">
+            <fileset dir="${res.dir}" excludes="**/*.java"/>
+        </copy>
+    </target>
+</project>

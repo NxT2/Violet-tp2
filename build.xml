@@ -1,0 +1,22 @@
+<!--
+  * Fichier Ant pour le projet Violet du cours IFT2255.
+  *
+  * Auteur: Bruno Dufour (dufour@iro.umontreal.ca)
+-->
+
+<project default="compile">
+  <target name="compile" description="Build Violet">
+    <ant dir="VioletFramework"/>
+    <ant dir="VioletPlugin.ActivityDiagram"/>
+    <ant dir="VioletPlugin.ClassDiagram"/>
+    <ant dir="VioletPlugin.ObjectDiagram"/>
+    <ant dir="VioletPlugin.SequenceDiagram"/>
+    <ant dir="VioletPlugin.StateDiagram"/>
+    <ant dir="VioletPlugin.UseCaseDiagram"/>
+    <!-- <ant dir="VioletProduct.swing"> -->
+  </target>
+
+  <target name="run">
+    <ant dir="VioletProduct.swing" target="run"/>
+  </target>
+</project>

@@ -1,4 +1,1 @@
-Violet-tp2
-==========
-
-tp2
+Unofficiel Github mirror of the Violet UML Editor from http://violet.sourceforge.net/
