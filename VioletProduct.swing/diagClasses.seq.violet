@@ -1,0 +1,110 @@
+<SequenceDiagramGraph id="1">
+  <nodes id="2">
+    <LifelineNode id="3">
+      <children id="4">
+        <ActivationBarNode id="5">
+          <children id="6"/>
+          <parent class="LifelineNode" reference="3"/>
+          <location class="Point2D.Double" id="7" x="52.5" y="130.0"/>
+          <id id="8" value="dd97ecb0-b9ad-4ddd-8dd5-81c9877045fa"/>
+          <revision>1</revision>
+          <backgroundColor id="9">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </backgroundColor>
+          <borderColor id="10">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </borderColor>
+          <textColor reference="10"/>
+          <verticalGapBetweenConnectedActivationBars>10.0</verticalGapBetweenConnectedActivationBars>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="11" x="500.0" y="0.0"/>
+      <id id="12" value="cd65ac7e-e93b-4bf5-8caf-42a46d753bce"/>
+      <revision>1</revision>
+      <backgroundColor id="13">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor id="14">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <textColor reference="14"/>
+      <name id="15" justification="1" size="4" underlined="true">
+        <text>ClassDiagramGraph</text>
+      </name>
+    </LifelineNode>
+    <LifelineNode id="16">
+      <children id="17">
+        <ActivationBarNode id="18">
+          <children id="19"/>
+          <parent class="LifelineNode" reference="16"/>
+          <location class="Point2D.Double" id="20" x="53.5" y="120.0"/>
+          <id id="21" value="47aaf4bc-0a88-4b01-995b-85e35e2cdca5"/>
+          <revision>1</revision>
+          <backgroundColor id="22">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </backgroundColor>
+          <borderColor id="23">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </borderColor>
+          <textColor reference="23"/>
+          <verticalGapBetweenConnectedActivationBars>10.0</verticalGapBetweenConnectedActivationBars>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="24" x="240.0" y="40.0"/>
+      <id id="25" value="18c380d2-48ce-497d-adaf-de05161af414"/>
+      <revision>1</revision>
+      <backgroundColor reference="22"/>
+      <borderColor reference="23"/>
+      <textColor reference="23"/>
+      <name id="26" justification="1" size="4" underlined="true">
+        <text>UMLEditorApplication
+</text>
+      </name>
+    </LifelineNode>
+  </nodes>
+  <edges id="27">
+    <CallEdge id="28">
+      <start class="ActivationBarNode" reference="18"/>
+      <end class="ActivationBarNode" reference="5"/>
+      <startLocation class="Point2D.Double" id="29" x="2.5" y="10.0"/>
+      <endLocation class="Point2D.Double" id="30" x="7.5" y="17.0"/>
+      <id id="31" value="6ad7095d-71b7-4f74-bc93-491e534fb9d3"/>
+      <revision>1</revision>
+      <bentStyle id="32" name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel></middleLabel>
+      <endLabel></endLabel>
+      <signal>false</signal>
+    </CallEdge>
+    <ReturnEdge id="33">
+      <start class="ActivationBarNode" reference="5"/>
+      <end class="ActivationBarNode" reference="18"/>
+      <startLocation class="Point2D.Double" id="34" x="12.5" y="19.0"/>
+      <endLocation class="Point2D.Double" id="35" x="11.5" y="39.0"/>
+      <id id="36" value="5c55fb9e-35f9-4885-9f79-3370b97adaa7"/>
+      <revision>1</revision>
+      <bentStyle reference="32"/>
+      <startLabel></startLabel>
+      <middleLabel></middleLabel>
+      <endLabel></endLabel>
+    </ReturnEdge>
+  </edges>
+</SequenceDiagramGraph>

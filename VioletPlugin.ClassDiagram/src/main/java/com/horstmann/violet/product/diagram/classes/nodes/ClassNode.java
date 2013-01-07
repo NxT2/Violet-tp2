@@ -117,7 +117,15 @@ public class ClassNode extends RectangularNode
         Rectangle2D bottomBounds = getBottomRectangleBounds();
         g2.setColor(getBackgroundColor());
         g2.fill(currentBounds);
+        setG(g2);
+        //TP3//
+        if(!valid) 
+        	setBorderColor(Color.RED);
+        else
+        	setBorderColor(Color.BLACK);
         g2.setColor(getBorderColor());
+        //TP3//
+        
         g2.draw(currentBounds);
         g2.drawLine((int) topBounds.getX(),(int) topBounds.getMaxY(),(int) currentBounds.getMaxX(),(int) topBounds.getMaxY());
         g2.drawLine((int) bottomBounds.getX(),(int) bottomBounds.getY(),(int) currentBounds.getMaxX(),(int) bottomBounds.getY());
@@ -224,6 +232,15 @@ public class ClassNode extends RectangularNode
     private MultiLineString name;
     private MultiLineString attributes;
     private MultiLineString methods;
+    
+    //TP3//
+    private boolean valid = true;
+    private Graphics2D G;
+    public void setG(Graphics2D g2){G = g2;}
+    public void setValid(boolean b){valid = b;}
+    public Graphics2D getG(){return G;}
+    public boolean getValid(){return valid;}
+    //TP3//
 
     private static int DEFAULT_COMPARTMENT_HEIGHT = 20;
     private static int DEFAULT_WIDTH = 100;

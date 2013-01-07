@@ -172,7 +172,7 @@ public class InterfaceNode extends RectangularNode
     // private transient double botHeight;
     private MultiLineString name;
     private MultiLineString methods;
-
+    
     private static int DEFAULT_COMPARTMENT_HEIGHT = 20;
     private static int DEFAULT_WIDTH = 100;
     private static int DEFAULT_HEIGHT = 60;

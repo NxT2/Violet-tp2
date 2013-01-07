@@ -21,6 +21,7 @@
 
 package com.horstmann.violet.product.diagram.abstracts.edge;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import java.awt.Shape;
@@ -221,6 +222,10 @@ public abstract class SegmentedLineEdge extends ShapeEdge
         ArrayList<Point2D> points = getPoints();
 
         Stroke oldStroke = g2.getStroke();
+        //TP3//
+        g = g2;
+        g2.setColor(validColor);
+        //TP3//
         g2.setStroke(getLineStyle().getStroke());
         g2.draw(getSegmentPath());
         g2.setStroke(oldStroke);
@@ -451,6 +456,14 @@ public abstract class SegmentedLineEdge extends ShapeEdge
     private String startLabel;
     private String middleLabel;
     private String endLabel;
+    
+    //TP3//
+    private Color validColor = Color.BLACK;
+    private Graphics2D g = null;
+    public Graphics2D getG(){return g;}
+    public void setColor(Color col){validColor = col;}
+    public Color getColor(){return validColor;}
+    //TP3//
 
     private static JLabel label = new JLabel();
 }

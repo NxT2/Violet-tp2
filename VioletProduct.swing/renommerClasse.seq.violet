@@ -1,0 +1,62 @@
+<SequenceDiagramGraph id="1">
+  <nodes id="2">
+    <LifelineNode id="3">
+      <children id="4">
+        <ActivationBarNode id="5">
+          <children id="6">
+            <ActivationBarNode id="7">
+              <children id="8"/>
+              <parent class="ActivationBarNode" reference="5"/>
+              <location class="Point2D.Double" id="9" x="8.0" y="20.0"/>
+              <backgroundColor id="10">
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+                <alpha>255</alpha>
+              </backgroundColor>
+              <borderColor id="11">
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+                <alpha>255</alpha>
+              </borderColor>
+              <textColor reference="11"/>
+              <verticalGapBetweenConnectedActivationBars>10.0</verticalGapBetweenConnectedActivationBars>
+            </ActivationBarNode>
+          </children>
+          <parent class="LifelineNode" reference="3"/>
+          <location class="Point2D.Double" id="12" x="32.0" y="100.0"/>
+          <id id="13" value="7c3930c2-ac79-4c16-868d-f5951066ed52"/>
+          <revision>1</revision>
+          <backgroundColor reference="10"/>
+          <borderColor reference="11"/>
+          <textColor reference="11"/>
+          <verticalGapBetweenConnectedActivationBars>10.0</verticalGapBetweenConnectedActivationBars>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="14" x="150.0" y="0.0"/>
+      <id id="15" value="840bc889-d916-4356-94f1-d2c4975d4de5"/>
+      <revision>1</revision>
+      <backgroundColor reference="10"/>
+      <borderColor reference="11"/>
+      <textColor reference="11"/>
+      <name id="16" justification="1" size="4" underlined="true">
+        <text>ClassNode</text>
+      </name>
+    </LifelineNode>
+  </nodes>
+  <edges id="17">
+    <CallEdge id="18">
+      <start class="ActivationBarNode" reference="5"/>
+      <end class="ActivationBarNode" reference="7"/>
+      <startLocation class="Point2D.Double" id="19" x="11.0" y="9.0"/>
+      <endLocation class="Point2D.Double" id="20" x="41.0" y="130.0"/>
+      <id id="21" value="1155dccf-9b1e-4985-b4fe-9bb443c47ff3"/>
+      <revision>1</revision>
+      <startLabel></startLabel>
+      <middleLabel>setName()</middleLabel>
+      <endLabel></endLabel>
+      <signal>false</signal>
+    </CallEdge>
+  </edges>
+</SequenceDiagramGraph>

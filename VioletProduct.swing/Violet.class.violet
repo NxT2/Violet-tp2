@@ -1,0 +1,807 @@
+<ClassDiagramGraph id="1">
+  <nodes id="2">
+    <ClassNode id="3">
+      <children id="4"/>
+      <location class="Point2D.Double" id="5" x="220.0" y="60.0"/>
+      <id id="6" value="89706426-9850-4f9f-ae58-ba33761b2b39"/>
+      <revision>1</revision>
+      <backgroundColor id="7">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor id="8">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <textColor id="9">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </textColor>
+      <name id="10" justification="1" size="3" underlined="false">
+        <text>UMLEditorApplication</text>
+      </name>
+      <attributes id="11" justification="0" size="4" underlined="false">
+        <text></text>
+      </attributes>
+      <methods id="12" justification="0" size="4" underlined="false">
+        <text>+main(args: String[ ]): void
+-createDefaultWorkspace(filesToOpen: String[ ]): void
+-installPlugins(): void</text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" id="13">
+        <eargb>-16777216</eargb>
+        <pixel>-16777216</pixel>
+        <surfaceData class="sun.java2d.NullSurfaceData" id="14">
+          <pData>0</pData>
+          <valid>true</valid>
+          <surfaceLost>false</surfaceLost>
+          <surfaceType id="15">
+            <uniqueID>1</uniqueID>
+            <desc>Any Surface</desc>
+            <pixelConverter id="16">
+              <alphaMask>0</alphaMask>
+            </pixelConverter>
+          </surfaceType>
+          <colorModel class="java.awt.image.DirectColorModel" id="17">
+            <pData>0</pData>
+            <pixel__bits>32</pixel__bits>
+            <nBits id="18">
+              <int>8</int>
+              <int>8</int>
+              <int>8</int>
+              <int>8</int>
+            </nBits>
+            <transparency>3</transparency>
+            <supportsAlpha>true</supportsAlpha>
+            <isAlphaPremultiplied>false</isAlphaPremultiplied>
+            <numComponents>4</numComponents>
+            <numColorComponents>3</numColorComponents>
+            <colorSpace class="java.awt.color.ICC_ColorSpace" id="19">
+              <type>5</type>
+              <numComponents>3</numComponents>
+              <thisProfile class="java.awt.color.ICC_ProfileRGB" id="20" serialization="custom">
+                <java.awt.color.ICC__Profile>
+                  <default>
+                    <iccProfileSerializedDataVersion>1</iccProfileSerializedDataVersion>
+                  </default>
+                  <string>CS_sRGB</string>
+                  <null/>
+                </java.awt.color.ICC__Profile>
+              </thisProfile>
+              <minVal id="21">
+                <float>0.0</float>
+                <float>0.0</float>
+                <float>0.0</float>
+              </minVal>
+              <maxVal id="22">
+                <float>1.0</float>
+                <float>1.0</float>
+                <float>1.0</float>
+              </maxVal>
+              <needScaleInit>true</needScaleInit>
+            </colorSpace>
+            <colorSpaceType>5</colorSpaceType>
+            <maxBits>8</maxBits>
+            <is__sRGB>true</is__sRGB>
+            <transferType>3</transferType>
+            <maskArray id="23">
+              <int>16711680</int>
+              <int>65280</int>
+              <int>255</int>
+              <int>-16777216</int>
+            </maskArray>
+            <maskOffsets id="24">
+              <int>16</int>
+              <int>8</int>
+              <int>0</int>
+              <int>24</int>
+            </maskOffsets>
+            <scaleFactors id="25">
+              <float>1.0</float>
+              <float>1.0</float>
+              <float>1.0</float>
+              <float>1.0</float>
+            </scaleFactors>
+            <red__mask>16711680</red__mask>
+            <green__mask>65280</green__mask>
+            <blue__mask>255</blue__mask>
+            <alpha__mask>-16777216</alpha__mask>
+            <red__offset>16</red__offset>
+            <green__offset>8</green__offset>
+            <blue__offset>0</blue__offset>
+            <alpha__offset>24</alpha__offset>
+            <red__scale>0</red__scale>
+            <green__scale>0</green__scale>
+            <blue__scale>0</blue__scale>
+            <alpha__scale>0</alpha__scale>
+            <is__LinearRGB>false</is__LinearRGB>
+            <lRGBprecision>0</lRGBprecision>
+          </colorModel>
+          <dirty>false</dirty>
+          <needsBackup>true</needsBackup>
+          <numCopies>0</numCopies>
+          <disposerReferent id="26"/>
+          <haveLCDLoop>0</haveLCDLoop>
+        </surfaceData>
+        <drawpipe class="sun.java2d.pipe.ValidatePipe" id="27"/>
+        <fillpipe class="sun.java2d.pipe.ValidatePipe" reference="27"/>
+        <imagepipe class="sun.java2d.pipe.ValidatePipe" reference="27"/>
+        <shapepipe class="sun.java2d.pipe.ValidatePipe" reference="27"/>
+        <textpipe class="sun.java2d.pipe.ValidatePipe" reference="27"/>
+        <alphafill class="sun.java2d.d3d.D3DMaskFill" id="28">
+          <methodSignature>MaskFill(...)</methodSignature>
+          <uniqueID>254742565</uniqueID>
+          <sourceType id="29">
+            <uniqueID>37</uniqueID>
+            <desc>Opaque Color</desc>
+            <next id="30">
+              <uniqueID>36</uniqueID>
+              <desc>Single Color</desc>
+              <next id="31">
+                <uniqueID>35</uniqueID>
+                <desc>Paint Object</desc>
+                <next reference="15"/>
+                <pixelConverter reference="16"/>
+              </next>
+              <pixelConverter reference="16"/>
+            </next>
+            <pixelConverter reference="16"/>
+          </sourceType>
+          <compositeType id="32">
+            <uniqueID>16</uniqueID>
+            <desc>Porter-Duff Src, No Extra Alpha</desc>
+            <next id="33">
+              <uniqueID>5</uniqueID>
+              <desc>Porter-Duff Src</desc>
+              <next id="34">
+                <uniqueID>2</uniqueID>
+                <desc>Any AlphaComposite Rule</desc>
+                <next id="35">
+                  <uniqueID>1</uniqueID>
+                  <desc>Any CompositeContext</desc>
+                </next>
+              </next>
+            </next>
+          </compositeType>
+          <destType id="36">
+            <uniqueID>47</uniqueID>
+            <desc>D3D Surface</desc>
+            <next reference="15"/>
+            <pixelConverter class="sun.awt.image.PixelConverter$ArgbPre" id="37">
+              <alphaMask>-16777216</alphaMask>
+            </pixelConverter>
+          </destType>
+          <pNativePrim>0</pNativePrim>
+          <rq class="sun.java2d.d3d.D3DRenderQueue" id="38">
+            <buf id="39">
+              <unsafe id="40"/>
+              <baseAddress>129178304</baseAddress>
+              <endAddress>129210304</endAddress>
+              <curAddress>129178304</curAddress>
+              <capacity>32000</capacity>
+            </buf>
+            <refSet id="41"/>
+          </rq>
+        </alphafill>
+        <loops id="42">
+          <drawLineLoop class="sun.java2d.loops.SetDrawLineANY" id="43">
+            <methodSignature>DrawLine(...)</methodSignature>
+            <uniqueID>33624100</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </drawLineLoop>
+          <fillRectLoop class="sun.java2d.loops.SetFillRectANY" id="44">
+            <methodSignature>FillRect(...)</methodSignature>
+            <uniqueID>100732964</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </fillRectLoop>
+          <drawRectLoop class="sun.java2d.loops.SetDrawRectANY" id="45">
+            <methodSignature>DrawRect(...)</methodSignature>
+            <uniqueID>167841828</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </drawRectLoop>
+          <drawPolygonsLoop class="sun.java2d.loops.SetDrawPolygonsANY" id="46">
+            <methodSignature>DrawPolygons(...)</methodSignature>
+            <uniqueID>184619044</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </drawPolygonsLoop>
+          <drawPathLoop class="sun.java2d.loops.SetDrawPathANY" id="47">
+            <methodSignature>DrawPath(...)</methodSignature>
+            <uniqueID>201396260</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </drawPathLoop>
+          <fillPathLoop class="sun.java2d.loops.SetFillPathANY" id="48">
+            <methodSignature>FillPath(...)</methodSignature>
+            <uniqueID>218173476</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </fillPathLoop>
+          <fillSpansLoop class="sun.java2d.loops.SetFillSpansANY" id="49">
+            <methodSignature>FillSpans(...)</methodSignature>
+            <uniqueID>117510180</uniqueID>
+            <sourceType reference="30"/>
+            <compositeType reference="32"/>
+            <destType reference="15"/>
+            <pNativePrim>0</pNativePrim>
+          </fillSpansLoop>
+          <drawGlyphListLoop class="sun.java2d.loops.DrawGlyphList$General" id="50">
+            <methodSignature>DrawGlyphList(...)</methodSignature>
+            <uniqueID>271585317</uniqueID>
+            <sourceType reference="29"/>
+            <compositeType id="51">
+              <uniqueID>16</uniqueID>
+              <desc>Porter-Duff Src, No Extra Alpha</desc>
+              <next id="52">
+                <uniqueID>5</uniqueID>
+                <desc>Porter-Duff Src</desc>
+                <next id="53">
+                  <uniqueID>17</uniqueID>
+                  <desc>Porter-Duff SrcOverDst, No Extra Alpha</desc>
+                  <next id="54">
+                    <uniqueID>7</uniqueID>
+                    <desc>Porter-Duff Src Over Dst</desc>
+                    <next reference="34"/>
+                  </next>
+                </next>
+              </next>
+            </compositeType>
+            <destType id="55">
+              <uniqueID>48</uniqueID>
+              <desc>D3D Surface (render-to-texture)</desc>
+              <next reference="36"/>
+              <pixelConverter class="sun.awt.image.PixelConverter$ArgbPre" reference="37"/>
+            </destType>
+            <pNativePrim>0</pNativePrim>
+            <maskop class="sun.java2d.d3d.D3DMaskFill" reference="28"/>
+          </drawGlyphListLoop>
+          <drawGlyphListAALoop class="sun.java2d.loops.DrawGlyphListAA$General" id="56">
+            <methodSignature>DrawGlyphListAA(...)</methodSignature>
+            <uniqueID>288362533</uniqueID>
+            <sourceType reference="29"/>
+            <compositeType reference="51"/>
+            <destType reference="55"/>
+            <pNativePrim>0</pNativePrim>
+            <maskop class="sun.java2d.d3d.D3DMaskFill" reference="28"/>
+          </drawGlyphListAALoop>
+        </loops>
+        <imageComp reference="53"/>
+        <paintState>0</paintState>
+        <compositeState>0</compositeState>
+        <strokeState>2</strokeState>
+        <transformState>1</transformState>
+        <clipState>1</clipState>
+        <foregroundColor class="javax.swing.plaf.ColorUIResource" id="57">
+          <value>-16777216</value>
+          <falpha>0.0</falpha>
+        </foregroundColor>
+        <backgroundColor id="58">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+          <alpha>255</alpha>
+        </backgroundColor>
+        <transform id="59" serialization="custom">
+          <java.awt.geom.AffineTransform>
+            <default>
+              <m00>1.0</m00>
+              <m01>0.0</m01>
+              <m02>1.0</m02>
+              <m10>0.0</m10>
+              <m11>1.0</m11>
+              <m12>-454.0</m12>
+            </default>
+          </java.awt.geom.AffineTransform>
+        </transform>
+        <transX>1</transX>
+        <transY>-454</transY>
+        <paint class="javax.swing.plaf.ColorUIResource" reference="57"/>
+        <stroke class="java.awt.BasicStroke" id="60">
+          <width>1.0</width>
+          <join>0</join>
+          <cap>2</cap>
+          <miterlimit>10.0</miterlimit>
+          <dash__phase>0.0</dash__phase>
+        </stroke>
+        <composite class="java.awt.AlphaComposite" id="61">
+          <extraAlpha>1.0</extraAlpha>
+          <rule>3</rule>
+        </composite>
+        <font id="62">
+          <attributes id="63">
+            <entry>
+              <awt-text-attribute>transform</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>family</awt-text-attribute>
+              <string>Dialog</string>
+            </entry>
+            <entry>
+              <awt-text-attribute>tracking</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>weight</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>size</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>superscript</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>width</awt-text-attribute>
+              <null/>
+            </entry>
+            <entry>
+              <awt-text-attribute>posture</awt-text-attribute>
+              <null/>
+            </entry>
+          </attributes>
+        </font>
+        <renderHint>0</renderHint>
+        <antialiasHint>2</antialiasHint>
+        <textAntialiasHint>0</textAntialiasHint>
+        <fractionalMetricsHint>1</fractionalMetricsHint>
+        <lcdTextContrast>140</lcdTextContrast>
+        <interpolationHint>-1</interpolationHint>
+        <strokeHint>0</strokeHint>
+        <interpolationType>1</interpolationType>
+        <constrainX>0</constrainX>
+        <constrainY>0</constrainY>
+        <clipRegion id="64">
+          <lox>1</lox>
+          <loy>0</loy>
+          <hix>1038</hix>
+          <hiy>226</hiy>
+          <endIndex>0</endIndex>
+        </clipRegion>
+        <usrClip class="java.awt.Rectangle" id="65">
+          <x>1</x>
+          <y>0</y>
+          <width>1037</width>
+          <height>226</height>
+        </usrClip>
+        <devClip id="66">
+          <lox>0</lox>
+          <loy>0</loy>
+          <hix>1280</hix>
+          <hiy>738</hiy>
+          <endIndex>0</endIndex>
+        </devClip>
+        <validFontInfo>false</validFontInfo>
+      </G>
+    </ClassNode>
+    <ClassNode id="67">
+      <children id="68"/>
+      <location class="Point2D.Double" id="69" x="210.0" y="200.0"/>
+      <id id="70" value="97b6034b-172e-4313-bc84-df6cc7e8f370"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="8"/>
+      <textColor reference="9"/>
+      <name id="71" justification="1" size="3" underlined="false">
+        <text>MainFrame</text>
+      </name>
+      <attributes id="72" justification="0" size="4" underlined="false">
+        <text>-welcomePanel: WelcomePanel
+-tabbedPane: TabbedPane
+-menuFactory: MenuFactory
+
+</text>
+      </attributes>
+      <methods id="73" justification="0" size="4" underlined="false">
+        <text>-createMenuBar(): void
++addTabbedPane(workspace: IWorkSpace): void
++getTabbedPane(): JTabbedPane
++removeDiagramPanel(diagramPanel: IWorkSpace): void
++setActiveDiagramPanel(aGraphFile: IFile): void
+</text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="74">
+      <children id="75"/>
+      <location class="Point2D.Double" id="76" x="20.0" y="240.0"/>
+      <id id="77" value="eb78c0b0-55e0-4755-a463-6049c9f594f1"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="8"/>
+      <textColor reference="9"/>
+      <name id="78" justification="1" size="3" underlined="false">
+        <text>WelcomePanel</text>
+      </name>
+      <attributes id="79" justification="0" size="4" underlined="false">
+        <text></text>
+      </attributes>
+      <methods id="80" justification="0" size="4" underlined="false">
+        <text>+paint(g: Graphics): void</text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="81">
+      <children id="82"/>
+      <location class="Point2D.Double" id="83" x="160.0" y="380.0"/>
+      <id id="84" value="ee2ccea6-43cc-4e31-a040-56b55794349f"/>
+      <revision>1</revision>
+      <backgroundColor id="85">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor reference="8"/>
+      <textColor id="86">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </textColor>
+      <name id="87" justification="1" size="3" underlined="false">
+        <text>MenuFactory</text>
+      </name>
+      <attributes id="88" justification="0" size="4" underlined="false">
+        <text>-editMenu: EditMenu
+-fileMenu: FileMenu
+-helpMenu: HelpMenu
+-viewMenu: ViewMenu</text>
+      </attributes>
+      <methods id="89" justification="0" size="4" underlined="false">
+        <text></text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="90">
+      <children id="91"/>
+      <location class="Point2D.Double" id="92" x="310.0" y="400.0"/>
+      <id id="93" value="263280d2-2d79-47a9-bdcb-28352703eee2"/>
+      <revision>1</revision>
+      <backgroundColor reference="85"/>
+      <borderColor reference="8"/>
+      <textColor reference="86"/>
+      <name id="94" justification="1" size="3" underlined="false">
+        <text>EditMenu</text>
+      </name>
+      <attributes id="95" justification="0" size="4" underlined="false">
+        <text>-mainFrame: MainFrame</text>
+      </attributes>
+      <methods id="96" justification="0" size="4" underlined="false">
+        <text></text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="97">
+      <children id="98"/>
+      <location class="Point2D.Double" id="99" x="180.0" y="560.0"/>
+      <id id="100" value="f3043256-b21f-4772-b6f9-bf2452635c32"/>
+      <revision>1</revision>
+      <backgroundColor reference="85"/>
+      <borderColor reference="8"/>
+      <textColor reference="86"/>
+      <name id="101" justification="1" size="3" underlined="false">
+        <text>FileMenu</text>
+      </name>
+      <attributes id="102" justification="0" size="4" underlined="false">
+        <text>-mainFrame: MainFrame</text>
+      </attributes>
+      <methods id="103" justification="0" size="4" underlined="false">
+        <text></text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="104">
+      <children id="105"/>
+      <location class="Point2D.Double" id="106" x="20.0" y="570.0"/>
+      <id id="107" value="469b172c-3c2a-4784-a483-97d85bdb5ed0"/>
+      <revision>1</revision>
+      <backgroundColor reference="85"/>
+      <borderColor reference="8"/>
+      <textColor reference="86"/>
+      <name id="108" justification="1" size="3" underlined="false">
+        <text>HelpMenu</text>
+      </name>
+      <attributes id="109" justification="0" size="4" underlined="false">
+        <text>-mainFrame: MainFrame</text>
+      </attributes>
+      <methods id="110" justification="0" size="4" underlined="false">
+        <text></text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="111">
+      <children id="112"/>
+      <location class="Point2D.Double" id="113" x="0.0" y="400.0"/>
+      <id id="114" value="55204660-61bb-47bc-ba48-50fe66a8fd79"/>
+      <revision>1</revision>
+      <backgroundColor reference="85"/>
+      <borderColor reference="8"/>
+      <textColor reference="86"/>
+      <name id="115" justification="1" size="3" underlined="false">
+        <text>ViewMenu</text>
+      </name>
+      <attributes id="116" justification="0" size="4" underlined="false">
+        <text>-mainFrame: MainFrame</text>
+      </attributes>
+      <methods id="117" justification="0" size="4" underlined="false">
+        <text></text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="118">
+      <children id="119"/>
+      <location class="Point2D.Double" id="120" x="630.0" y="220.0"/>
+      <id id="121" value="ebe4fc37-7333-4f59-a985-c4292ea58c29"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="8"/>
+      <textColor reference="9"/>
+      <name id="122" justification="1" size="3" underlined="false">
+        <text>ClassDiagramGraph</text>
+      </name>
+      <attributes id="123" justification="0" size="4" underlined="false">
+        <text>-NODE_PROTOTYPES: List&lt;INodes&gt;
+-EDGE_PROTOTYPES: List&lt;INodes&gt;</text>
+      </attributes>
+      <methods id="124" justification="0" size="4" underlined="false">
+        <text>+getNodePrototypes(): void
++getEdgePrototypes(): void</text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="125">
+      <children id="126"/>
+      <location class="Point2D.Double" id="127" x="610.0" y="410.0"/>
+      <id id="128" value="fed8f48c-e2ea-4c6e-9aff-6c9a728aa4d8"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="8"/>
+      <textColor reference="9"/>
+      <name id="129" justification="1" size="3" underlined="false">
+        <text>ClassNode</text>
+      </name>
+      <attributes id="130" justification="0" size="4" underlined="false">
+        <text>-name: MultiLineString
+-attributes: MultiLineString
+-methods: MultiLineString</text>
+      </attributes>
+      <methods id="131" justification="0" size="4" underlined="false">
+        <text>+clone(): ClassNode
++setName(newValue: MultiLineString): void
++setAttributes(newValue: MultiLineString): void
++setMethods(newValue: MultiLineString): void
++draw(g2: Graphics2D): void
+</text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="132">
+      <children id="133"/>
+      <location class="Point2D.Double" id="134" x="650.0" y="50.0"/>
+      <id id="135" value="63454d59-a75d-4ab7-a358-5c3084860b00"/>
+      <revision>1</revision>
+      <backgroundColor id="136">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor reference="8"/>
+      <textColor id="137">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </textColor>
+      <name id="138" justification="1" size="3" underlined="false">
+        <text>AssociationEdge</text>
+      </name>
+      <attributes id="139" justification="0" size="4" underlined="false">
+        <text></text>
+      </attributes>
+      <methods id="140" justification="0" size="4" underlined="false">
+        <text>+getStartArrowHead(): ArrowHead
++getEndArrowHead(): ArrowHead
++getLineStyle(): LineStyle</text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+    <ClassNode id="141">
+      <children id="142"/>
+      <location class="Point2D.Double" id="143" x="870.0" y="70.0"/>
+      <id id="144" value="bfda103b-6861-4f55-852c-0167306f9363"/>
+      <revision>1</revision>
+      <backgroundColor reference="136"/>
+      <borderColor reference="8"/>
+      <textColor reference="137"/>
+      <name id="145" justification="1" size="3" underlined="false">
+        <text>ClassRelantionshipEdge</text>
+      </name>
+      <attributes id="146" justification="0" size="4" underlined="false">
+        <text></text>
+      </attributes>
+      <methods id="147" justification="0" size="4" underlined="false">
+        <text></text>
+      </methods>
+      <valid>true</valid>
+      <G class="sun.java2d.SunGraphics2D" reference="13"/>
+    </ClassNode>
+  </nodes>
+  <edges id="148">
+    <AssociationEdge id="149">
+      <start class="ClassNode" reference="74"/>
+      <end class="ClassNode" reference="67"/>
+      <startLocation class="Point2D.Double" id="150" x="58.0" y="33.0"/>
+      <endLocation class="Point2D.Double" id="151" x="73.0" y="61.0"/>
+      <id id="152" value="1ad0c341-ed57-4f91-a603-8318b303e81f"/>
+      <revision>1</revision>
+      <bentStyle id="153" name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel>s</middleLabel>
+      <endLabel>1</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </AssociationEdge>
+    <CompositionEdge id="154">
+      <start class="ClassNode" reference="3"/>
+      <end class="ClassNode" reference="67"/>
+      <startLocation class="Point2D.Double" id="155" x="197.0" y="72.0"/>
+      <endLocation class="Point2D.Double" id="156" x="168.0" y="32.0"/>
+      <id id="157" value="6212ddd9-53f2-440a-af33-c09a2cd43ee3"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>s</middleLabel>
+      <endLabel>2</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </CompositionEdge>
+    <CompositionEdge id="158">
+      <start class="ClassNode" reference="81"/>
+      <end class="ClassNode" reference="111"/>
+      <startLocation class="Point2D.Double" id="159" x="25.0" y="28.0"/>
+      <endLocation class="Point2D.Double" id="160" x="55.0" y="14.0"/>
+      <id id="161" value="1f82b1d7-4d31-4db4-a601-48657a1c33a2"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>a</middleLabel>
+      <endLabel>2</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </CompositionEdge>
+    <CompositionEdge id="162">
+      <start class="ClassNode" reference="81"/>
+      <end class="ClassNode" reference="104"/>
+      <startLocation class="Point2D.Double" id="163" x="60.0" y="36.0"/>
+      <endLocation class="Point2D.Double" id="164" x="50.0" y="19.0"/>
+      <id id="165" value="264dffcb-9adc-4cda-9a56-1309e7c0e1f1"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>e</middleLabel>
+      <endLabel>1</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </CompositionEdge>
+    <CompositionEdge id="166">
+      <start class="ClassNode" reference="81"/>
+      <end class="ClassNode" reference="97"/>
+      <startLocation class="Point2D.Double" id="167" x="51.0" y="42.0"/>
+      <endLocation class="Point2D.Double" id="168" x="38.0" y="32.0"/>
+      <id id="169" value="466f27cc-ffe4-473a-ad07-efcfb568ba38"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>a</middleLabel>
+      <endLabel>4</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </CompositionEdge>
+    <CompositionEdge id="170">
+      <start class="ClassNode" reference="81"/>
+      <end class="ClassNode" reference="90"/>
+      <startLocation class="Point2D.Double" id="171" x="57.0" y="23.0"/>
+      <endLocation class="Point2D.Double" id="172" x="17.0" y="11.0"/>
+      <id id="173" value="5b0dd545-ecbc-4212-8bbf-888702afee93"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>a</middleLabel>
+      <endLabel>1</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </CompositionEdge>
+    <AggregationEdge id="174">
+      <start class="ClassNode" reference="67"/>
+      <end class="ClassNode" reference="81"/>
+      <startLocation class="Point2D.Double" id="175" x="139.0" y="99.0"/>
+      <endLocation class="Point2D.Double" id="176" x="75.0" y="12.0"/>
+      <id id="177" value="92c1715a-5c4a-4b5d-a5f7-232ad266c063"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>s</middleLabel>
+      <endLabel>1</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </AggregationEdge>
+    <InheritanceEdge id="178">
+      <start class="ClassNode" reference="132"/>
+      <end class="ClassNode" reference="141"/>
+      <startLocation class="Point2D.Double" id="179" x="82.0" y="14.0"/>
+      <endLocation class="Point2D.Double" id="180" x="22.0" y="22.0"/>
+      <id id="181" value="9c3326d3-3c68-42d1-9c2d-25254229d007"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel></middleLabel>
+      <endLabel></endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </InheritanceEdge>
+    <AssociationEdge id="182">
+      <start class="ClassNode" reference="132"/>
+      <end class="ClassNode" reference="118"/>
+      <startLocation class="Point2D.Double" id="183" x="49.0" y="16.0"/>
+      <endLocation class="Point2D.Double" id="184" x="150.0" y="61.0"/>
+      <id id="185" value="32344348-4a20-4d46-a2b6-5793c8949f5b"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>s</middleLabel>
+      <endLabel>1</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </AssociationEdge>
+    <CompositionEdge id="186">
+      <start class="ClassNode" reference="118"/>
+      <end class="ClassNode" reference="125"/>
+      <startLocation class="Point2D.Double" id="187" x="104.0" y="17.0"/>
+      <endLocation class="Point2D.Double" id="188" x="31.0" y="16.0"/>
+      <id id="189" value="b0b1f79c-8bbb-46f4-ba28-84d6c5e3f853"/>
+      <revision>1</revision>
+      <bentStyle reference="153"/>
+      <startLabel></startLabel>
+      <middleLabel>a</middleLabel>
+      <endLabel>6</endLabel>
+      <validColor reference="8"/>
+      <g class="sun.java2d.SunGraphics2D" reference="13"/>
+    </CompositionEdge>
+  </edges>
+</ClassDiagramGraph>

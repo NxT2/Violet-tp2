@@ -1,0 +1,272 @@
+<StateDiagramGraph id="1">
+  <nodes id="2">
+    <CircularInitialStateNode id="3">
+      <children id="4"/>
+      <location class="Point2D.Double" id="5" x="30.0" y="160.0"/>
+      <id id="6" value="667f6d34-c59e-47b4-ab03-e42f4b93fcfd"/>
+      <revision>1</revision>
+      <backgroundColor id="7">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor id="8">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <textColor reference="8"/>
+    </CircularInitialStateNode>
+    <StateNode id="9">
+      <children id="10"/>
+      <location class="Point2D.Double" id="11" x="180.0" y="210.0"/>
+      <id id="12" value="1b467b0e-15a2-4fdd-abda-80380b9c3484"/>
+      <revision>1</revision>
+      <backgroundColor reference="7"/>
+      <borderColor reference="8"/>
+      <textColor reference="8"/>
+      <name id="13" justification="1" size="4" underlined="false">
+        <text>Created</text>
+      </name>
+    </StateNode>
+    <StateNode id="14">
+      <children id="15"/>
+      <location class="Point2D.Double" id="16" x="340.0" y="40.0"/>
+      <id id="17" value="05f521ba-7592-4f2f-b60d-b38fcb04c7d2"/>
+      <revision>1</revision>
+      <backgroundColor id="18">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </backgroundColor>
+      <borderColor id="19">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </borderColor>
+      <textColor reference="19"/>
+      <name id="20" justification="1" size="4" underlined="false">
+        <text>Has a Name</text>
+      </name>
+    </StateNode>
+    <StateNode id="21">
+      <children id="22"/>
+      <location class="Point2D.Double" id="23" x="300.0" y="280.0"/>
+      <id id="24" value="80a57cfc-5017-45a4-8cb3-b320be2375db"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+      <name id="25" justification="1" size="4" underlined="false">
+        <text>Has Attributes</text>
+      </name>
+    </StateNode>
+    <StateNode id="26">
+      <children id="27"/>
+      <location class="Point2D.Double" id="28" x="160.0" y="480.0"/>
+      <id id="29" value="18b9496f-d4bf-46b1-b18d-d20fbe40bb31"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+      <name id="30" justification="1" size="4" underlined="false">
+        <text>Has Methods</text>
+      </name>
+    </StateNode>
+    <StateNode id="31">
+      <children id="32"/>
+      <location class="Point2D.Double" id="33" x="540.0" y="60.0"/>
+      <id id="34" value="1bac038a-b944-4543-8f92-145baa5e1da0"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+      <name id="35" justification="1" size="4" underlined="false">
+        <text>Has a Name and Attributes</text>
+      </name>
+    </StateNode>
+    <StateNode id="36">
+      <children id="37"/>
+      <location class="Point2D.Double" id="38" x="370.0" y="540.0"/>
+      <id id="39" value="8701c065-4d8a-47c3-8231-02d558070c1e"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+      <name id="40" justification="1" size="4" underlined="false">
+        <text>Has a Name and Methods
+</text>
+      </name>
+    </StateNode>
+    <StateNode id="41">
+      <children id="42"/>
+      <location class="Point2D.Double" id="43" x="540.0" y="400.0"/>
+      <id id="44" value="e3400e1e-6255-403f-95a1-3193461fdcec"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+      <name id="45" justification="1" size="4" underlined="false">
+        <text>Has Atributes and Methods
+</text>
+      </name>
+    </StateNode>
+    <StateNode id="46">
+      <children id="47"/>
+      <location class="Point2D.Double" id="48" x="790.0" y="560.0"/>
+      <id id="49" value="41b7f2b9-fb3b-419c-8da6-5ed33d68d11a"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+      <name id="50" justification="1" size="4" underlined="false">
+        <text>Has Name, Attributes and Methods</text>
+      </name>
+    </StateNode>
+    <CircularFinalStateNode id="51">
+      <children id="52"/>
+      <location class="Point2D.Double" id="53" x="870.0" y="210.0"/>
+      <id id="54" value="83773818-beab-4d80-bbf3-d5c55a7d3ef8"/>
+      <revision>1</revision>
+      <backgroundColor reference="18"/>
+      <borderColor reference="19"/>
+      <textColor reference="19"/>
+    </CircularFinalStateNode>
+  </nodes>
+  <edges id="55">
+    <StateTransitionEdge id="56">
+      <start class="CircularInitialStateNode" reference="3"/>
+      <end class="StateNode" reference="9"/>
+      <startLocation class="Point2D.Double" id="57" x="14.0" y="11.0"/>
+      <endLocation class="Point2D.Double" id="58" x="17.0" y="38.0"/>
+      <id id="59" value="4fc4937e-a0b7-404a-a25a-50319c9140c6"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>ClassNode()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="60">
+      <start class="StateNode" reference="9"/>
+      <end class="StateNode" reference="14"/>
+      <startLocation class="Point2D.Double" id="61" x="65.0" y="15.0"/>
+      <endLocation class="Point2D.Double" id="62" x="38.0" y="48.0"/>
+      <id id="63" value="5f579d02-ed71-4452-9b9f-fa2f3a61490a"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setName()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="64">
+      <start class="StateNode" reference="9"/>
+      <end class="StateNode" reference="21"/>
+      <startLocation class="Point2D.Double" id="65" x="58.0" y="45.0"/>
+      <endLocation class="Point2D.Double" id="66" x="16.0" y="49.0"/>
+      <id id="67" value="8f53a8b9-b6e0-4700-8385-00052222d7b1"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setAttributes()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="68">
+      <start class="StateNode" reference="9"/>
+      <end class="StateNode" reference="26"/>
+      <startLocation class="Point2D.Double" id="69" x="25.0" y="47.0"/>
+      <endLocation class="Point2D.Double" id="70" x="18.0" y="13.0"/>
+      <id id="71" value="61d4183f-00b4-4fd3-8086-98d7bd08a103"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setMethods()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="72">
+      <start class="StateNode" reference="14"/>
+      <end class="StateNode" reference="31"/>
+      <startLocation class="Point2D.Double" id="73" x="65.0" y="30.0"/>
+      <endLocation class="Point2D.Double" id="74" x="26.0" y="34.0"/>
+      <id id="75" value="5afaf570-0f5b-4107-b9dc-50cea024bdb1"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setAttributes()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="76">
+      <start class="StateNode" reference="21"/>
+      <end class="StateNode" reference="31"/>
+      <startLocation class="Point2D.Double" id="77" x="61.0" y="37.0"/>
+      <endLocation class="Point2D.Double" id="78" x="41.0" y="46.0"/>
+      <id id="79" value="470c0b66-de01-427b-8016-b90e8495bc01"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setName()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="80">
+      <start class="StateNode" reference="14"/>
+      <end class="StateNode" reference="36"/>
+      <startLocation class="Point2D.Double" id="81" x="49.0" y="53.0"/>
+      <endLocation class="Point2D.Double" id="82" x="9.0" y="20.0"/>
+      <id id="83" value="939f675c-4a83-4cfb-b00d-8d45bc54b19e"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setMethods()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="84">
+      <start class="StateNode" reference="21"/>
+      <end class="StateNode" reference="41"/>
+      <startLocation class="Point2D.Double" id="85" x="72.0" y="51.0"/>
+      <endLocation class="Point2D.Double" id="86" x="40.0" y="46.0"/>
+      <id id="87" value="8a8f1108-7b19-432b-8310-aa89b14165dd"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setMethods()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="88">
+      <start class="StateNode" reference="26"/>
+      <end class="StateNode" reference="36"/>
+      <startLocation class="Point2D.Double" id="89" x="64.0" y="39.0"/>
+      <endLocation class="Point2D.Double" id="90" x="25.0" y="45.0"/>
+      <id id="91" value="09c3ebe3-d1cf-4068-bf6c-c701a39318d8"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setName()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="92">
+      <start class="StateNode" reference="26"/>
+      <end class="StateNode" reference="41"/>
+      <startLocation class="Point2D.Double" id="93" x="49.0" y="3.0"/>
+      <endLocation class="Point2D.Double" id="94" x="50.0" y="56.0"/>
+      <id id="95" value="53c0fff6-3bfb-415a-8ff8-1f6761b8e5f6"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText></labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="96">
+      <start class="StateNode" reference="41"/>
+      <end class="StateNode" reference="46"/>
+      <startLocation class="Point2D.Double" id="97" x="123.0" y="39.0"/>
+      <endLocation class="Point2D.Double" id="98" x="39.0" y="38.0"/>
+      <id id="99" value="9c6815a2-b4d5-4e0f-9b18-a96df5a81225"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setName()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="100">
+      <start class="StateNode" reference="31"/>
+      <end class="StateNode" reference="46"/>
+      <startLocation class="Point2D.Double" id="101" x="121.0" y="49.0"/>
+      <endLocation class="Point2D.Double" id="102" x="33.0" y="26.0"/>
+      <id id="103" value="cc7aac0b-619e-43d7-a26c-afa2c32ebf68"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setMethods()</labelText>
+    </StateTransitionEdge>
+    <StateTransitionEdge id="104">
+      <start class="StateNode" reference="36"/>
+      <end class="StateNode" reference="46"/>
+      <startLocation class="Point2D.Double" id="105" x="139.0" y="33.0"/>
+      <endLocation class="Point2D.Double" id="106" x="19.0" y="50.0"/>
+      <id id="107" value="c813fdd3-ebea-4059-b47e-7ec59b3c1c41"/>
+      <revision>1</revision>
+      <angle>10.0</angle>
+      <labelText>setAttributes()</labelText>
+    </StateTransitionEdge>
+  </edges>
+</StateDiagramGraph>

@@ -1,0 +1,90 @@
+<SequenceDiagramGraph id="1">
+  <nodes id="2">
+    <LifelineNode id="3">
+      <children id="4">
+        <ActivationBarNode id="5">
+          <children id="6"/>
+          <parent class="LifelineNode" reference="3"/>
+          <location class="Point2D.Double" id="7" x="52.5" y="90.0"/>
+          <id id="8" value="e16a2b95-a490-449e-8578-425e9b2dd2d8"/>
+          <revision>1</revision>
+          <backgroundColor id="9">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </backgroundColor>
+          <borderColor id="10">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </borderColor>
+          <textColor reference="10"/>
+          <verticalGapBetweenConnectedActivationBars>10.0</verticalGapBetweenConnectedActivationBars>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="11" x="230.0" y="60.0"/>
+      <id id="12" value="440e2540-a0ba-4087-9414-2c44b4eda72b"/>
+      <revision>1</revision>
+      <backgroundColor reference="9"/>
+      <borderColor reference="10"/>
+      <textColor reference="10"/>
+      <name id="13" justification="1" size="4" underlined="true">
+        <text>ClassDiagramGraph</text>
+      </name>
+    </LifelineNode>
+    <LifelineNode id="14">
+      <children id="15">
+        <ActivationBarNode id="16">
+          <children id="17"/>
+          <parent class="LifelineNode" reference="14"/>
+          <location class="Point2D.Double" id="18" x="32.0" y="100.0"/>
+          <id id="19" value="c043d8b6-46fb-4f05-b0c5-759fa6b7571e"/>
+          <revision>1</revision>
+          <backgroundColor reference="9"/>
+          <borderColor reference="10"/>
+          <textColor reference="10"/>
+          <verticalGapBetweenConnectedActivationBars>10.0</verticalGapBetweenConnectedActivationBars>
+        </ActivationBarNode>
+      </children>
+      <location class="Point2D.Double" id="20" x="490.0" y="40.0"/>
+      <id id="21" value="97bc5ac6-96cb-4be8-8b49-b4bcdf8340b7"/>
+      <revision>1</revision>
+      <backgroundColor reference="9"/>
+      <borderColor reference="10"/>
+      <textColor reference="10"/>
+      <name id="22" justification="1" size="4" underlined="true">
+        <text>ClassNode
+</text>
+      </name>
+    </LifelineNode>
+  </nodes>
+  <edges id="23">
+    <CallEdge id="24">
+      <start class="ActivationBarNode" reference="5"/>
+      <end class="ActivationBarNode" reference="16"/>
+      <startLocation class="Point2D.Double" id="25" x="9.5" y="12.0"/>
+      <endLocation class="Point2D.Double" id="26" x="6.0" y="16.0"/>
+      <id id="27" value="ec323906-10e1-4c7b-95c0-22d5bae43300"/>
+      <revision>1</revision>
+      <bentStyle id="28" name="AUTO"/>
+      <startLabel></startLabel>
+      <middleLabel>new ClassNode()</middleLabel>
+      <endLabel></endLabel>
+      <signal>false</signal>
+    </CallEdge>
+    <ReturnEdge id="29">
+      <start class="ActivationBarNode" reference="16"/>
+      <end class="ActivationBarNode" reference="5"/>
+      <startLocation class="Point2D.Double" id="30" x="6.0" y="23.0"/>
+      <endLocation class="Point2D.Double" id="31" x="7.5" y="41.0"/>
+      <id id="32" value="3a01e249-7f30-44e2-a224-fc068a92b097"/>
+      <revision>1</revision>
+      <bentStyle reference="28"/>
+      <startLabel></startLabel>
+      <middleLabel></middleLabel>
+      <endLabel></endLabel>
+    </ReturnEdge>
+  </edges>
+</SequenceDiagramGraph>
